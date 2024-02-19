@@ -9,31 +9,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-[--bg-color] overflow-hidden">
+  <body class="bg-[--bg-color] h-screen overflow-hidden">
     <div class="h-screen overflow-auto">
       <section
-        class="flex flex-col items-center m-5 gap-y-10 bg-[--blue-color] rounded-lg lg:mx-auto lg:my-6 pb-1 md:pb-24 lg:w-[80%]"
+        class="flex flex-col items-center m-5 bg-[--blue-color] rounded-lg lg:mx-auto pb-3 md:pb-5 lg:w-[90%]"
       >
         <div
-          class="bg-[--text-color] text-[--btn-text] font-bold text-3xl text-center w-[95%] my-5 rounded-lg lg:text-5xl lg:w-[80%]"
+          class="bg-[--text-color] text-[--btn-text] font-bold text-2xl text-center w-[95%] my-5 rounded-lg lg:text-3xl lg:w-[90%]"
         >
           <h1 class="py-3 border-b border-[--btn-text] inline-block">
             Six Non-Negotiables
           </h1>
           <h1 class="pb-3 pt-3">छह गैर परक्राम्य</h1>
         </div>
-        <div class="grid gap-4 place-items-center pb-4 text-[--btn-text]">
+        <div class="grid place-items-center text-[--btn-text] w-[90%] lg:w-[90%]">
           <a
             href="pdf/6NN.pdf"
             download="6NN.pdf"
-            class="w-[90%] lg:bg-[--bg-color] border-2 p-1 rounded transform hover:scale-105 transition duration-300 ease-in-out md:w-[95%]"
+            class="lg:bg-[--bg-color] border-2 p-1 rounded transform hover:scale-105 transition duration-300 ease-in-out md:w-full"
           >
-            <img src="images/0.jpg" alt="Hard_Work" class="rounded w-72 h-52" />
-            <button
-              class="w-full text-center bg-[--text-color] p-1 rounded-sm font-extrabold cursor-pointer hover:bg-[--slate-500] transition duration-300 ease-in-out"
-            >
-              Six Non-Negotiables
-            </button>
+            <img src="images/0.jpg" alt="Hard_Work" class="rounded w-full " />
           </a>
         </div>
       </section>
@@ -47,7 +42,7 @@
         </a>
       </section>
 
-      <section class="absolute bottom-0 w-full bg-[--black] p-4">
+      <section class="absolute md:relative lg:relative bottom-0 w-full bg-[--black] p-4">
         <footer
           class="text-center text-sm md:text-lg font-extralight text-[--btn-text]"
         >
